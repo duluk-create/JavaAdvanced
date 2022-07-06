@@ -4,9 +4,6 @@ public class NewtonAlgorithmus {
             System.out.println(q);
         }
         else{
-            if(q*q == n){
-                System.out.println(q);
-            }
             if(q*q < n || q*q > n){
                 q = (q + (n/q))/2;
                 newtonWurzel(n, q);
